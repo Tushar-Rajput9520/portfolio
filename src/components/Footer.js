@@ -7,16 +7,16 @@ export default function Footer() {
         
         {/* Left: Logo + Text */}
         <div className="flex flex-col md:flex-row items-center gap-4 mb-4 md:mb-0">
-          <Image src="/logo.png" alt="Logo" width={100} height={80} className="mb-2 md:mb-0" />
+         
           <p className="text-center md:text-left">
-            © {new Date().getFullYear()} Vaduni Niranjan. All rights reserved.
+            © {new Date().getFullYear()} Tushar Singh. All rights reserved.
           </p>
         </div>
 
         {/* Right: Social Icons using external SVG URLs */}
         <div className="flex space-x-6">
           <a
-            href="https://github.com/Vaduni"
+            href="https://github.com/Tushar-Rajput9520"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition-opacity duration-200"
@@ -29,7 +29,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/vaduni-niranjan-6a2780311"
+            href="https://www.linkedin.com/in/tushar-singh-068426257/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition-opacity duration-200"
@@ -42,7 +42,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="mailto:vaduniniranjan@gmail.com"
+            href="mailto:tusharsinghkrj@gmail.com"
             className="hover:opacity-70 transition-opacity duration-200"
           >
             <img

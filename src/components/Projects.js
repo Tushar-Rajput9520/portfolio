@@ -2,33 +2,34 @@ import { useEffect, useRef } from "react";
 
 const projects = [
   {
-    title: "NewsNest",
+    title: "Password Generator",
     label: "React App",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     description:
-      "Built a responsive React app to display live headlines via NewsAPI with category filters and infinite scroll. Secured API calls using Vercel serverless functions.",
-    github: "https://github.com/Vaduni/React/tree/main/newsnest",
-    demo: "https://newsnest-one.vercel.app",
-    image: "/projects/newsnest.png",
+     "Secure & Stylish Password Generator Built with ⚛️ React & 🌬️ Tailwind CSS. Customize length, include 🔢 numbers & 🔣 symbols, and copy with one click 📋. Fast ⚡, responsive 📱, and perfect for strong password creation.",
+    github: "https://github.com/Tushar-Rajput9520/Password-Generator",
+    demo: "https://password-generator-tushar.vercel.app/",
+    image: "/projects/curr.jpg",
   },
   {
-    title: "TextCount",
-    label: "JavaScript",
+    title: "Scrolling_Coffee_site",
+    label: "JavaScript, and GSAP for animations. ",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     description:
-      "A text utility tool offering word/character count, case conversion, text copy, and space cleanup — ideal for writing within set limits.",
-    github: "https://github.com/Vaduni/React/tree/main/textcount",
-    demo: "https://vaduni.github.io/React/",
-    image: "/projects/textcount.png",
+      "",
+    github: "https://github.com/Tushar-Rajput9520/Scrolling_Coffee_site",
+    demo: "https://cofffee-cafe.netlify.app/",
+    image: "/projects/image.png",
   },
   {
-    title: "iNotebook",
+    title: "StayBooking",
     label: "MERN",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     description:
-      "A secure digital notebook with user authentication and full CRUD features, built using React, Node.js, Express, and MongoDB.",
-    github: "https://github.com/Vaduni/React/tree/main/inotebook",
-    image: "/projects/inotebook.png",
+      "A secure digital Booking with user authentication and full CRUD features, built using React, Node.js, Express, and MongoDB.",
+    github: "https://github.com/Tushar-Rajput9520/StayBooking",
+    demo: "https://mystaybooking-cms7.onrender.com/",
+    image: "/projects/booking.jpg",
   },
   {
     title: "Currency Calculator",
@@ -36,19 +37,19 @@ const projects = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     description:
       "Developed a real-time currency converter using JavaScript, Fetch API, and external exchange data APIs.",
-    github: "https://github.com/Vaduni/Web-Projects/tree/main/Currency%20converter",
-    demo: "https://currency-converter-one-rose.vercel.app",
-    image: "/projects/currency.png",
+    github: "https://github.com/Tushar-Rajput9520/Currency_Convertor",
+    demo:"https://currency-convertor-jade-beta.vercel.app/",
+    image: "/projects/=cal.jpg",
   },
   {
-    title: "TinDog",
-    label: "HTML/CSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    title: "WANDERLUST",
+    label: "MERN",
+     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     description:
-      "A responsive landing page for a fictional dog adoption service, showcasing HTML, CSS, and Bootstrap skills.",
-    github: "https://github.com/Vaduni/Web-Projects/tree/main/Tindog",
-    demo: "https://tindog-vaduni-niranjans-projects-32a1dc87.vercel.app",
-    image: "/projects/tindog.png",
+      "Wanderlust is a travel ✈️ website🎧built using the MEEN stack🏝️ (MongoDB🍹, Express⛱️, EJS🌞, Node.js🌊). It allows users to explore exciting travel destinations 🛍️, create 📸 and manage itineraries🎫, and share travel experiences 🧳through blogs. With user authentication🧑🏻‍💻 and a responsive design.",
+    github: "https://github.com/Tushar-Rajput9520/WANDERLUST",
+    demo: "https://wanderlust-002.onrender.com/listings",
+    image: "/projects/WANDER.jpg",
   },
 ];
 

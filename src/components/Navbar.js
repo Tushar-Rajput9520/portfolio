@@ -21,11 +21,11 @@ export default function Navbar() {
       <div className="container mx-auto px-6 md:px-12 lg:px-20 flex justify-between items-center h-16">
         {/* Logo*/}
         <a href="#hero" className="flex items-center gap-2 text-xl font-bold text-[var(--color-primary)]">
-          <img src="/logo.png" alt="Logo" className="w-40 h-25 object-contain" />
+         <h2><b>TUSHAR </b></h2>
         </a>
 
         {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-8 text-gray-500 font-medium">
+        <ul className="hidden md:flex space-x-8 text-[white] font-medium">
           {["Home", "About", "Projects", "Skills", "Certifications", "Contact"].map((section) => (
             <li key={section}>
               <a

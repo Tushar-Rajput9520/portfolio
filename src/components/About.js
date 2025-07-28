@@ -9,11 +9,11 @@ const About = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <p className="text-lg leading-7 text-gray-800 text-justify">
-          Hey there! I'm Vaduni Niranjan — a Computer Science student at
-          Galgotias College of Engineering and Technology (CGPA: 8.66), driven
+          Hey there! I'm Tushar Singh — a Computer Science student at
+          Galgotias College of Engineering and Technology (CGPA: 8.04), driven
           by the thrill of turning ideas into impactful digital experiences.
           Whether it’s crafting sleek user interfaces, building full-stack web
-          apps, or diving deep into cybersecurity, I thrive at the intersection
+          apps, I thrive at the intersection
           of functionality and creativity.
         </p>
         <p className="text-lg leading-7 text-gray-800 mt-4 text-justify">
